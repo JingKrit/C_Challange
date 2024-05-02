@@ -48,7 +48,7 @@ int main()
         {
             for (int i = 1; i <= str.length(); i++)
             {
-                if ((i % 3 == 0 || (i - 1) % 3 == 0) && i != 1)
+                if ((i % 3 == 0 || i % 3 == 1) && i != 1)
                 {
                     printf("*.%c.", str[i - 1]);
                 }
