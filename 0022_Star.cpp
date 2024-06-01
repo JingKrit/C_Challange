@@ -15,7 +15,7 @@ int main()
         col = n;
     }
 
-    for (int y = 1; y <= 0; y++)
+    for (int y = 1; y <= n; y++)
     {
         for (int x = 1; x <= col; x++)
         {
